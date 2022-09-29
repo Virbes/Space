@@ -1,0 +1,35 @@
+@media screen and (max-width: 768px) {
+    .contenedor{
+        flex-direction: column;
+    }
+
+    .descripcion__parrafo{
+        width: 500px;
+    }
+
+    .imagen{
+        width: 80%;
+        height: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .imagen__nasa{
+        width: 500px;
+        padding-right: 300px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .contenedor{
+        width: 90%;
+    }
+
+    .descripcion__parrafo{
+        width: 300px;
+    }
+
+    .imagen{
+        width: 600px
+    }
+}

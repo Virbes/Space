@@ -1,0 +1,92 @@
+/** CREW */
+#body-crew {
+    background-image: url('../assets/crew/background-crew-desktop.jpg');
+}
+
+
+.principal{
+    min-height: 100%;
+}
+
+/** Contenido */
+
+img{
+    overflow: hidden;
+}
+.contenedor{
+    width: 1100px;
+    margin: 40px auto;
+    display: flex;
+}
+
+.informacion{
+    width: 80%;
+    margin: 10px auto;
+}
+
+.meet{
+    display: flex;
+    align-items: center;
+}
+
+.meet__numero{
+    font-size: 2rem;
+    color: var(--moradito);
+}
+
+.meet__texto{
+    font-size: 2rem;
+    padding-left: 15px;
+    color: var(--blanco);
+}
+
+.descripcion{
+    margin-top: 55px;
+    width: 90%;
+}
+
+.descripcion__text{
+    font-size: 2rem;
+    color: var(--moradito);
+}
+
+.descripcion__titulo{
+    margin-top: 15px;
+    color: var(--blanco);
+    font-size: 3.6rem;
+}
+
+.descripcion__parrafo{
+    width: 400px;
+    color: var(--blanco);
+    font-size: 1.8rem;
+}
+
+.botones{
+    margin-top: 80px;
+}
+
+.boton{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    border-radius: 100%;
+    background-color: var(--moradito);
+    opacity: 0.5;
+    cursor: pointer;
+}
+.activo{
+    background-color: #fff;
+    opacity: 1;
+}
+
+.imagen{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen__nasa{
+    width: 100%;
+}

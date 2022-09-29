@@ -1,0 +1,110 @@
+/** TECHNOLOGY */
+#body-technology {
+    background-image: url('../assets/technology/background-technology-desktop.jpg');
+}
+.title {
+    font-family: 'Barlow Condensed';
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--blanco);
+    letter-spacing: 4.75px;
+    margin-left: 12%;
+    margin-bottom: 7%;
+}
+
+.title span {
+    color: var(--gris);
+    font-weight: bold;
+}
+
+#technologies .technology {
+    display: flex;
+    width: 90%;
+    height: 290px;
+    float: right;
+}
+
+#technologies .technology .pages {
+    width: 10%;
+    height: inherit;
+    font-family: 'Bellefair';
+    
+}
+
+#technologies .technology .pages ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#technologies .technology .pages ul li:hover {
+    border: 1px solid var(--moradito);
+}
+
+#technologies .active {
+    background-color: var(--blanco) !important;
+    color: var(--negro) !important;
+    transition: all 700ms;
+}
+
+#technologies .technology .pages ul li {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 75px;
+    font-size: 25px;
+    color: var(--blanco);
+    border: 1px solid var(--gris);
+    cursor: pointer;
+}
+
+#technologies .technology .tech-info {
+    width: 56%;
+    height: inherit;
+    box-sizing: border-box; 
+    padding: 27px 140px 32px 80px;
+    color: var(--blanco);
+}
+
+#technologies .technology .tech-info span {
+    font-family: 'Barlow Condensed';
+    text-transform: uppercase;
+    letter-spacing: 2.9px;
+    color: var(--moradito);
+}
+
+#technologies .technology .tech-info .title-technology {
+    font-family: 'Bellefair';
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+#technologies .technology .tech-info .technology-description {
+    font-family: 'Barlow Condensed';
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: var(--moradito);
+}
+
+#technologies .technology .technology-image { 
+    width: 30%;
+    position: absolute;
+    right: 0px;
+    top: 190px;
+}
+#technologies .technology .technology-image img {
+    width: 100%;
+}
